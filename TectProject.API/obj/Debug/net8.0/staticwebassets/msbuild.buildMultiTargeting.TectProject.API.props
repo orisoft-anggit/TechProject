@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/TectProject.API.props" />
+</Project>

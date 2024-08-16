@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{2774B077-3E0D-41C8-84AE-82AF09FA4BE9}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TectProject.API FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TechProject" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
