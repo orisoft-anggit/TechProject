@@ -23,10 +23,10 @@ builder.Services.AddSwaggerGen(c =>
 	{
 		Description = "Standart Authorization header using the Bearer scheme, e.g. \"bearer {token} \"",
 		In = ParameterLocation.Header,
-        Name = "Authorization",
-        Type = SecuritySchemeType.Http,
-        BearerFormat = "JWT",
-        Scheme = "Bearer"
+		Name = "Authorization",
+		Type = SecuritySchemeType.Http,
+		BearerFormat = "JWT",
+		Scheme = "Bearer"
 	});
 	c.OperationFilter<SecurityRequirementsOperationFilter>();
 });
@@ -55,6 +55,14 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddCors(options =>
+{
+	options.AddPolicy("AllowBlazorOrigin",
+		builder => builder.WithOrigins("http://localhost:5001/") 
+						  .AllowAnyMethod()
+						  .AllowAnyHeader());
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -67,6 +75,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors("AllowBlazorOrigin");
 
 app.MapControllers();
 
