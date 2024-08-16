@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zaAlpBXiWVSU2luGAn7EUOy9Mr1roeeJfodwebYAozo=",
+  "Hash": "ZFwPDWc3XEFyq6lOCj8/KooS1I0eKK/Jv4XyESbWenA=",
   "Source": "TechProject.ClientSide",
   "BasePath": "/",
   "Mode": "Root",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/anggitmarcellino/.nuget/packages/microsoft.aspnetcore.components.webassembly/8.0.3/build/net8.0/blazor.webassembly.js"
+    },
+    {
+      "Identity": "/Users/anggitmarcellino/Projects/TechProject/TechProject.ClientSide/bin/Debug/net8.0/wwwroot/_framework/Blazored.LocalStorage.wasm",
+      "SourceId": "TechProject.ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/anggitmarcellino/Projects/TechProject/TechProject.ClientSide/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/anggitmarcellino/Projects/TechProject/TechProject.ClientSide/obj/Debug/net8.0/webcil/Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "/Users/anggitmarcellino/Projects/TechProject/TechProject.ClientSide/bin/Debug/net8.0/wwwroot/_framework/dotnet.js",
@@ -5050,6 +5069,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/anggitmarcellino/Projects/TechProject/TechProject.ClientSide/bin/Debug/net8.0/wwwroot/_framework/System.Security.Cryptography.Algorithms.wasm"
+    },
+    {
+      "Identity": "/Users/anggitmarcellino/Projects/TechProject/TechProject.ClientSide/obj/Debug/net8.0/compressed/agux60gd4u.gz",
+      "SourceId": "TechProject.ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/anggitmarcellino/Projects/TechProject/TechProject.ClientSide/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/anggitmarcellino/Projects/TechProject/TechProject.ClientSide/bin/Debug/net8.0/wwwroot/_framework/Blazored.LocalStorage.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/anggitmarcellino/Projects/TechProject/TechProject.ClientSide/bin/Debug/net8.0/wwwroot/_framework/Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "/Users/anggitmarcellino/Projects/TechProject/TechProject.ClientSide/obj/Debug/net8.0/compressed/al6veu69y5.gz",

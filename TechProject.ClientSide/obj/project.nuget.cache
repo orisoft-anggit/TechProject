@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lmYNi5uOXBF8S/W77Fii45w2qxUEIt9NwerhMFTKDDCiCx9SlWoK6+WFL/n9KVTXhA9fdDx+62YCo9C2R8jShg==",
+  "dgSpecHash": "/hUTE0Bu4XlxsGAAiKlNplFkJYqFAYZzh8OoQu4gK1NZ/sFyV3skjgtzh+xcj+J8nlkADkf2YC7QqBsIaH++nA==",
   "success": true,
   "projectFilePath": "/Users/anggitmarcellino/Projects/TechProject/TechProject.ClientSide/TechProject.ClientSide.csproj",
   "expectedPackageFiles": [
+    "/Users/anggitmarcellino/.nuget/packages/blazored.localstorage/4.5.0/blazored.localstorage.4.5.0.nupkg.sha512",
     "/Users/anggitmarcellino/.nuget/packages/microsoft.aspnetcore.authorization/8.0.3/microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",
     "/Users/anggitmarcellino/.nuget/packages/microsoft.aspnetcore.components/8.0.3/microsoft.aspnetcore.components.8.0.3.nupkg.sha512",
     "/Users/anggitmarcellino/.nuget/packages/microsoft.aspnetcore.components.analyzers/8.0.3/microsoft.aspnetcore.components.analyzers.8.0.3.nupkg.sha512",
@@ -26,7 +27,7 @@
     "/Users/anggitmarcellino/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.1/microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
     "/Users/anggitmarcellino/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
     "/Users/anggitmarcellino/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "/Users/anggitmarcellino/.nuget/packages/microsoft.jsinterop/8.0.3/microsoft.jsinterop.8.0.3.nupkg.sha512",
+    "/Users/anggitmarcellino/.nuget/packages/microsoft.jsinterop/8.0.8/microsoft.jsinterop.8.0.8.nupkg.sha512",
     "/Users/anggitmarcellino/.nuget/packages/microsoft.jsinterop.webassembly/8.0.3/microsoft.jsinterop.webassembly.8.0.3.nupkg.sha512",
     "/Users/anggitmarcellino/.nuget/packages/microsoft.net.illink.tasks/8.0.3/microsoft.net.illink.tasks.8.0.3.nupkg.sha512",
     "/Users/anggitmarcellino/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.3/microsoft.net.sdk.webassembly.pack.8.0.3.nupkg.sha512",

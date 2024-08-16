@@ -141,3 +141,4 @@
 /Users/anggitmarcellino/Projects/TechProject/TectProject.API/bin/Debug/net8.0/Scrutor.dll
 /Users/anggitmarcellino/Projects/TechProject/TectProject.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Filters.dll
 /Users/anggitmarcellino/Projects/TechProject/TectProject.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Filters.Abstractions.dll
+/Users/anggitmarcellino/Projects/TechProject/TectProject.API/obj/Debug/net8.0/TectProject.API.sourcelink.json
