@@ -6,6 +6,7 @@ using Swashbuckle.AspNetCore.Filters;
 using TectProject.API.Data;
 using TectProject.API.Interface;
 using TectProject.API.Service.Auth;
+using TectProject.API.Service.Bpkb;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,10 +35,11 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
+builder.Services.AddScoped<IBpkbService, BpkbService>();
+
 builder.Services.AddScoped<IAuthService, AuthService>();
 
 builder.Services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
-
 
 // Ensure configuration is properly accessed here
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

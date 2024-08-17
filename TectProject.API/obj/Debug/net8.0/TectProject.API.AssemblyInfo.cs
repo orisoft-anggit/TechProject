@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TectProject.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed6d2723b5e36d3fa471eab840d15ed61656361a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b23946ff5c6020c3d7da1540f47175fbc6388e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TectProject.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TectProject.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
