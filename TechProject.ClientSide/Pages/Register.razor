@@ -1,0 +1,46 @@
+@page "/register"
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+@inject AuthService AuthService
+
+<h3>Register</h3>
+
+<EditForm Model="@registerRequest" OnValidSubmit="HandleRegister">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <InputText id="username" @bind-Value="registerRequest.UserName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <InputText id="password" @bind-Value="registerRequest.Password" class="form-control" type="password" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Register</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger mt-3">@errorMessage</div>
+}
+
+@code {
+    private CreateRegisterRequest registerRequest = new CreateRegisterRequest();
+    private string errorMessage = string.Empty;
+
+    private async Task HandleRegister()
+    {
+        var result = await AuthService.Register(registerRequest);
+        if (result)
+        {
+            NavigationManager.NavigateTo("/login");
+        }
+        else
+        {
+            errorMessage = "Registration failed. Please try again.";
+        }
+    }
+}

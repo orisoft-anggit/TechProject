@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.JSInterop": {
               "target": "Package",
               "version": "[8.0.8, )"

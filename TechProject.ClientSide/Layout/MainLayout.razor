@@ -1,6 +1,7 @@
 ﻿@inherits LayoutComponentBase
 @inject ILocalStorageService LocalStorage
 @inject NavigationManager NavigationManager
+@inject AuthService AuthService
 
 <div class="page">
     <div class="sidebar">
@@ -37,7 +38,7 @@
 
     private async Task Logout()
     {
-        await LocalStorage.RemoveItemAsync("authToken");
+        await AuthService.Logout();
         isAuthenticated = false;
         NavigationManager.NavigateTo("/");
     }

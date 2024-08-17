@@ -2,6 +2,7 @@
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
 @inject ILocalStorageService LocalStorage
+@inject AuthService AuthService
 
 <h3>Login</h3>
 
@@ -29,28 +30,19 @@
 
 @code {
     private CreateLoginRequest loginRequest = new CreateLoginRequest();
+    
     private string errorMessage = string.Empty;
 
     private async Task HandleLogin()
     {
-        var response = await HttpClient.PostAsJsonAsync("login", loginRequest);
-
-        if (response.IsSuccessStatusCode)
+        var result = await AuthService.Login(loginRequest);
+        if (result)
         {
-            var result = await response.Content.ReadFromJsonAsync<BaseResponse<string>>();
-            if (result.Success)
-            {
-                await LocalStorage.SetItemAsync("authToken", result.Data);
-                NavigationManager.NavigateTo("/");
-            }
-            else
-            {
-                errorMessage = result.Message;
-            }
+            NavigationManager.NavigateTo("/");
         }
         else
         {
-            errorMessage = "An error occurred while logging in.";
+            errorMessage = "Login failed. Please check your credentials.";
         }
     }
 }
